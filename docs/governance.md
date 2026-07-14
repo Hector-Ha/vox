@@ -1,20 +1,20 @@
 # Community Governance
 
-Vox uses AI for speed and people for public trust. AI can research and draft, but it cannot approve its own output.
+Vox uses AI to provide timely research and drafting. People retain authority over public trust. AI cannot approve its own output.
 
 ## Ratings
 
 Eligible users rate a Note where it appears:
 
-- **Helpful** — useful, accurate, well sourced, neutral, and relevant.
-- **Somewhat Helpful** — adds value but has meaningful limitations.
-- **Not Helpful** — incorrect, unsupported, biased, irrelevant, unnecessary, or unsafe.
+- **Helpful:** useful, accurate, well sourced, neutral, and relevant.
+- **Somewhat Helpful:** adds value but has meaningful limitations.
+- **Not Helpful:** incorrect, unsupported, biased, irrelevant, unnecessary, or unsafe.
 
 Each user has one active Rating per Note Application. Changing a Rating replaces the earlier choice instead of adding another vote.
 
 ## Bridging Consensus
 
-Bridging Consensus is Vox's publication standard. It uses authenticated community signal, contributor track records, negative feedback, revision requests, and active safety blockers. It is not a raw majority vote and does not claim to decide absolute truth.
+Bridging Consensus is Vox's publication standard. It considers authenticated community signal, contributor track records, negative feedback, revision requests, and active safety blockers. It is not a raw majority vote, and it does not claim to decide absolute truth.
 
 A Draft Note becomes Community Approved only after it earns enough qualified helpful signal and has no active hard blocker.
 
@@ -40,7 +40,7 @@ Established Notes have remained Community Approved and stable through the requir
 
 ## Corrections
 
-Meaning-changing updates to Governed Notes use a Correction Proposal. The replacement must earn the same community trust standard before replacing the current version. Urgent abuse, privacy, legal, or safety issues can hide a Note immediately without turning moderators into factual arbiters.
+Meaning-changing updates to Governed Notes use a Correction Proposal. A replacement must earn the same community trust standard before it can replace the current version. Urgent abuse, privacy, legal, or safety issues can hide a Note immediately. This power does not make moderators factual arbiters.
 
 ## Roles
 

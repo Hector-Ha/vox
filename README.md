@@ -4,7 +4,7 @@
 
 ## Welcome to Vox's public repository
 
-Vox is a cross-platform reader context layer for Reddit, Facebook, X, and Threads. It adds concise, sourced context directly beside public posts, then gives people—not AI—the authority to decide what earns lasting public trust.
+Vox is a cross-platform reader context layer for Reddit, Facebook, X, and Threads. It adds concise, sourced context directly beside public posts. People, not AI, decide what earns lasting public trust.
 
 This repository is the public home for Vox's product model, governance rules, research, and program updates. It explains how Vox works without exposing private production systems, security controls, credentials, or proprietary implementation details.
 
@@ -32,13 +32,13 @@ Vox is built around one principle:
 
 ## How it works
 
-1. **Request context** — Select **Request AI Note** beside a public post.
-2. **Research begins** — Vox captures only the bounded post content needed for the request and checks whether trusted context already exists.
-3. **Sources are assessed** — AI discovers and evaluates sources relevant to the post's claim or broader context.
-4. **Context appears inline** — When the evidence is strong enough, Vox publishes a concise, sourced AI Public Draft Note beside the post.
-5. **People rate the note** — Verified users and contributors choose **Helpful**, **Somewhat Helpful**, or **Not Helpful**.
-6. **Consensus upgrades trust** — Notes that earn sufficient community support without active safety blockers become Community Approved.
-7. **Stable context travels** — Governed Notes can help readers wherever the same claim appears, without allowing loose or misleading matches.
+1. **Request context:** Select **Request AI Note** beside a public post.
+2. **Research begins:** Vox captures only the bounded post content needed for the request and checks whether trusted context already exists.
+3. **Sources are assessed:** AI discovers and evaluates sources relevant to the post's claim or broader context.
+4. **Context appears inline:** When the evidence is strong enough, Vox publishes a concise, sourced AI Public Draft Note beside the post.
+5. **People rate the note:** Verified users and contributors choose **Helpful**, **Somewhat Helpful**, or **Not Helpful**.
+6. **Consensus upgrades trust:** Notes that earn sufficient community support without active safety blockers become Community Approved.
+7. **Stable context travels:** Governed Notes can help readers wherever the same claim appears, without allowing loose or misleading matches.
 
 Drafting continues safely even if the reader closes the page. The extension shows honest progress states, preserves unresolved requests in the request center, and can send an optional completion notification. Drafting normally finishes well within its five-minute target; slower work remains durable instead of being abandoned.
 
@@ -134,7 +134,7 @@ Vox is committed to making its public rules understandable. This repository docu
 - the research that informs Vox's approach; and
 - material changes to public product behavior.
 
-Vox learns from public work on collaborative context systems, including [X Community Notes](https://github.com/twitter/communitynotes), while remaining an independent cross-platform product. Vox is not affiliated with or endorsed by Reddit, Meta, X, or their subsidiaries.
+Vox learns from public work on collaborative context systems, including [X Community Notes](https://github.com/twitter/communitynotes). Vox remains an independent cross-platform product and is not affiliated with or endorsed by Reddit, Meta, X, or their subsidiaries.
 
 ## Product scope
 

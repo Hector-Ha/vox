@@ -1,6 +1,6 @@
 # Product Pseudocode
 
-This document describes Vox behavior at a product level. It is intentionally non-executable and omits production architecture, providers, storage, security controls, and operational details.
+This document explains Vox behavior through public product pseudocode. It is intentionally non-executable. Production architecture, providers, storage, security controls, and operational details are omitted.
 
 ## Request context
 
@@ -20,6 +20,8 @@ function requestContext(publicPost, requester):
     startDurableDrafting(snapshot or publicPost.link)
     return DraftingStarted
 ```
+
+Request status checks observe progress. They do not perform drafting work.
 
 ## Draft a note
 
@@ -78,6 +80,8 @@ function considerReuse(governedNote, candidatePost):
     else:
         do not reuse
 ```
+
+Related subject matter alone never qualifies as responsible reuse.
 
 ## Correct governed context
 
