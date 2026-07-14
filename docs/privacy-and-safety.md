@@ -1,6 +1,6 @@
 # Privacy and Safety
 
-Vox collects only what is needed to provide and govern reader context.
+Vox follows a simple privacy rule: collect only what is needed to provide and govern reader context.
 
 ## Data boundaries
 
@@ -16,11 +16,11 @@ A request uses a bounded snapshot of the public post. If that snapshot is unavai
 
 ## Public evidence
 
-Public Notes show reader-facing citations. Vox retains only bounded support needed for published citations and governance. Full research packets and hidden model reasoning are not public Note content.
+Public Notes show reader-facing citations. Vox retains only the bounded support needed for published citations and governance. Full research packets and hidden model reasoning never appear as public Note content.
 
 ## Accounts and deletion
 
-Users can delete private account data and revoke active sessions. Public Notes and anonymized governance history may remain when needed to avoid silently rewriting public trust records. Retained Ratings no longer identify the deleted account.
+Users can delete private account data and revoke active sessions. Public Notes and anonymized governance history may remain when needed to preserve public trust records. Retained Ratings no longer identify the deleted account.
 
 ## Notifications
 
@@ -32,4 +32,4 @@ Moderators can act immediately on abuse, legal or safety issues, private informa
 
 ## Publication safety
 
-Vox publishes no Note when sourcing is inadequate, the post is inaccessible, a hard safety rule applies, or generation fails. Partial output never becomes public context.
+Vox publishes no Note when sourcing is inadequate, when the post is inaccessible, when a hard safety rule applies, or when generation fails. Partial output never becomes public context.

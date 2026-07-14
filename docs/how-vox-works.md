@@ -1,6 +1,6 @@
 # How Vox Works
 
-Vox adds sourced context beside public posts on Reddit, Facebook, X, and Threads. It separates fast AI assistance from public trust.
+Vox places sourced context beside public posts on Reddit, Facebook, X, and Threads. AI helps with speed. People control public trust.
 
 ## Reader flow
 
@@ -28,7 +28,7 @@ AI Public Draft Notes never override Governed Notes. A note is reused only when 
 
 ## Request outcomes
 
-Every request ends in a specific state:
+Every request ends with a clear state:
 
 | Outcome | Reader meaning |
 | --- | --- |
@@ -43,8 +43,8 @@ Failed or partial work never creates a public note.
 
 ## Context beyond fact-checking
 
-Vox notes can clarify timelines, definitions, primary evidence, missing background, or other sourceable context. A post does not need to be a simple factual claim. Opinions, jokes, questions, and reactions may receive context when that context materially helps readers.
+Vox notes can clarify timelines, definitions, primary evidence, missing background, or other sourceable context. A post does not need to contain a simple factual claim. Opinions, jokes, questions, and reactions may receive context when credible context would materially help readers.
 
 ## Cross-platform context
 
-Claims often move between platforms. Vox can reuse a Governed Note across matching public posts while keeping every attachment separately rated for fit. Loose topic similarity is not enough.
+Claims often move between platforms. Vox can reuse a Governed Note across matching public posts. Each attachment receives its own fit signal, and loose topic similarity is never enough.
