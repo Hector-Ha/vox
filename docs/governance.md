@@ -1,56 +1,55 @@
-# Community Governance
+# Trust model
 
-Vox uses AI to provide timely research and drafting. People retain authority over public trust. AI cannot approve its own output.
+vox deals with contested public material. Trust cannot come from polished language, a model label, or a large reaction count. It has to come from visible boundaries.
 
-## Ratings
+This document states product principles. It is not a disclosure of internal review systems, security controls, moderation tooling, or operating procedures.
 
-Eligible users rate a Note where it appears:
+Public trust-document boundary decision date: 2026-09-21.
 
-- **Helpful:** useful, accurate, well sourced, neutral, and relevant.
-- **Somewhat Helpful:** adds value but has meaningful limitations.
-- **Not Helpful:** incorrect, unsupported, biased, irrelevant, unnecessary, or unsafe.
+## Evidence has a stated role
 
-Each user has one active Rating per Note Application. Changing a Rating replaces the earlier choice instead of adding another vote.
+vox distinguishes direct material, independent context, public reaction, and background reference. The product asks what each item can support before using it in a Story.
 
-## Bridging Consensus
+Evidence-role decision date: 2026-08-28.
 
-Bridging Consensus is Vox's publication standard. It considers authenticated community signal, contributor track records, negative feedback, revision requests, and active safety blockers. It is not a raw majority vote, and it does not claim to decide absolute truth.
+## Popularity does not become proof
 
-A Draft Note becomes Community Approved only after it earns enough qualified helpful signal and has no active hard blocker.
+Visible support, current momentum, and evidence strength remain separate. A widely repeated claim does not gain factual support from repetition. A strongly supported account does not become popular merely because the evidence is good.
 
-## Note Stability Ladder
+Signal-separation decision date: 2026-08-28.
 
-```text
-Draft
-  -> Community Approved
-  -> Established
-```
+## Every number has a boundary
 
-### Draft
+Counts and percentages refer only to a named or inspectable set of retrieved material. vox does not present a convenience sample as a platform-wide, regional, or public survey.
 
-Drafts can be revised when feedback identifies a concrete problem. Meaning-changing revision creates a new version with fresh Ratings.
+Measurement-boundary decision date: 2026-08-28. Reader presentation refinement date: 2026-08-29.
 
-### Community Approved
+## Uncertainty changes the output
 
-Community Approved Notes have earned Bridging Consensus. Approval changes the trust label, not the underlying evidence or reuse rules.
+When the material cannot support a timeline, lead, spectrum, or confident relationship between posts, vox leaves that part out. The product does not fill missing knowledge with confident prose.
 
-### Established
+Conditional-output decision date: 2026-08-28.
 
-Established Notes have remained Community Approved and stable through the required review period without unresolved serious reports.
+## Corrections remain distinct from updates
 
-## Corrections
+New developments can update a Story. A factual or interpretive mistake calls for a correction. Keeping those changes distinct helps readers understand whether the world changed or vox's account changed.
 
-Meaning-changing updates to Governed Notes use a Correction Proposal. A replacement must earn the same community trust standard before it can replace the current version. Urgent abuse, privacy, legal, or safety issues can hide a Note immediately. This power does not make moderators factual arbiters.
+Correction-model decision date: 2026-08-28.
 
-## Roles
+## Readers can challenge a Story without rewriting it directly
 
-- **Readers** can view public Notes without an account.
-- **Verified users** can request and rate context.
-- **Contributors** earn greater governance weight through useful participation.
-- **Moderators** handle abuse, privacy, legal, safety, spam, manipulation, broken sourcing, and contributor authority.
+Readers should be able to report a problem with a specific part of a Story. A report starts review. It does not automatically edit, rank, or remove material. Ordinary disagreement remains part of perspective analysis unless it reveals a support, safety, or fit problem.
 
-Moderators do not decide ordinary factual disputes. Those remain in Ratings, revisions, and Correction Proposals.
+Report-boundary decision date: 2026-08-28.
 
-## Quality safeguards
+## AI remains constrained by evidence
 
-Vox can pause new AI Public Draft Notes during a quality or abuse incident while continuing to show fitting Governed Notes. System-wide safeguards change process rules; they do not let one operator choose which viewpoint wins.
+AI may help find, compare, organize, and explain public material. Its output remains limited by the evidence available to the Story. AI cannot promote a search result into proof, infer access to missing communities, or make a partial sample representative.
+
+AI boundary decision date: 2026-08-28.
+
+## Public trust does not require public machinery
+
+The public should be able to understand the rules that shape a Story. That does not require publishing source code, security design, private operational records, provider configuration, or abuse defenses. vox separates explainable product principles from details whose disclosure would weaken privacy, safety, or the product's legitimate confidential work.
+
+Public disclosure boundary decision date: 2026-09-21.

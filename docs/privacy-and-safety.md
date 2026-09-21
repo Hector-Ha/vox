@@ -1,35 +1,53 @@
-# Privacy and Safety
+# Privacy and safety
 
-Vox follows a simple privacy rule: collect only what is needed to provide and govern reader context.
+vox is designed to explain public situations without turning readers or ordinary participants into a separate surveillance product.
 
-## Data boundaries
+This document records public product boundaries. It does not disclose security controls, retention schedules, incident procedures, infrastructure, or legal terms.
 
-Vox does not collect:
+Public privacy-document boundary decision date: 2026-09-21.
 
-- comments or replies;
-- friend, follower, or social-graph data;
-- full profile history;
-- browsing history; or
-- unrelated page content.
+## Request-driven context
 
-A request uses a bounded snapshot of the public post. If that snapshot is unavailable, Vox may use the public post link. If neither provides enough context, the request ends as Inaccessible Post or Not Enough Context.
+vox begins with a reader's request about a public post. The product is not designed to build its Story library by passively recording a person's feed or browsing history.
 
-## Public evidence
+Request-driven collection decision date: 2026-08-28.
 
-Public Notes show reader-facing citations. Vox retains only the bounded support needed for published citations and governance. Full research packets and hidden model reasoning never appear as public Note content.
+## Story-scoped identity
 
-## Accounts and deletion
+When understanding public reaction requires distinguishing authors, the useful question is whether the same person appears more than once in that Story. It is not whether the person can be followed across unrelated Stories.
 
-Users can delete private account data and revoke active sessions. Public Notes and anonymized governance history may remain when needed to preserve public trust records. Retained Ratings no longer identify the deleted account.
+vox is designed to avoid turning an ordinary reaction author into a durable cross-Story profile.
 
-## Notifications
+Story-scoped identity decision date: 2026-08-28.
 
-Completion alerts are optional and disabled by default. Notification access is requested only after a user enables it.
+## Bounded claims about public reaction
 
-## Moderation boundary
+Public posts, replies, comments, and videos can explain perspectives and reasons. They cannot establish what an entire platform or population believes unless the evidence actually supports that claim.
 
-Moderators can act immediately on abuse, legal or safety issues, private information, spam, manipulation, and broken sourcing. Ordinary disagreement stays in Ratings and governed correction flows.
+When access is incomplete, vox narrows the language. It does not imply that missing communities, private discussion, or inaccessible reactions were measured.
 
-## Publication safety
+Reaction-boundary decision date: 2026-08-28.
 
-Vox publishes no Note when sourcing is inadequate, when the post is inaccessible, when a hard safety rule applies, or when generation fails. Partial output never becomes public context.
+## Independent support for factual claims
+
+A public reaction or private contribution may help explain a perspective. Factual context and timeline claims require independent support. This prevents a person's opinion from being republished as evidence merely because it entered the analysis.
+
+Independent-support decision date: 2026-08-28. Contribution boundary refinement date: 2026-08-29.
+
+## Minimal public identity
+
+vox may need to name a participant whose public actions are central to a Story. Ordinary reaction authors should not become public profiles or leaderboards. Attribution should serve the Story, not create a new audience around a bystander.
+
+Participant and reaction-author distinction decision date: 2026-08-28.
+
+## A clear reporting boundary
+
+Readers should be able to report privacy, safety, impersonation, abuse, or weak support in a specific part of a Story. Serious problems may justify hiding affected material while it is reviewed. Reporting is not a shortcut for removing an ordinary disagreement.
+
+Safety-report direction decision date: 2026-08-28.
+
+## What remains private here
+
+This public repository does not describe defensive controls, abuse thresholds, internal access rules, investigation methods, private datasets, operational logs, or service configuration. Publishing those details would not help a reader evaluate the product idea and could make the product or its users less safe.
+
+Confidential safety boundary decision date: 2026-09-21.
