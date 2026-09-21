@@ -4,8 +4,6 @@
 
 vox helps people understand the situation behind a public post by turning scattered evidence, competing perspectives, and bounded public reaction into one readable Story.
 
-Purpose decision date: 2026-08-28.
-
 ## The reader problem
 
 A post can be clear about what someone wants you to feel and vague about everything else. The origin may be missing. The timeline may be scrambled. A screenshot may omit the reply that changed the meaning. Thousands of reactions may make one view look universal even when the visible discussion is partial or heavily shaped by one community.
@@ -25,7 +23,11 @@ vox answers a broader question than a conventional fact check: "What is going on
 
 That job applies to news, politics, creator disputes, product controversies, fandom, local discussion, and smaller online conflicts. A Story does not need to be globally important. It needs to be understandable, publicly discussable, and relevant to an identifiable audience.
 
-Scope decision date: 2026-08-28.
+## Who it is for
+
+vox is for the reader who arrives halfway through a conversation. They may recognize the people involved but not the history. They may know what happened but not why it matters. They may see a confident consensus in one feed and a completely different consensus somewhere else.
+
+The product is useful when the work of understanding is spread across too many posts, sources, communities, and moments in time.
 
 ## The Story
 
@@ -46,7 +48,11 @@ The complete Story can contain:
 
 The compact Story shows only what a reader needs first. The complete Story makes the reasoning inspectable without forcing every reader through every source.
 
-Story and reader-layer decisions date: 2026-08-28.
+## When vox should stay quiet
+
+Not every post needs a Story. vox should stay quiet when the material cannot support a responsible explanation, when the situation is too private, when added context would be trivial, or when a Story would create more certainty than the evidence allows.
+
+Silence is better than a confident answer built from weak material.
 
 ## The central product judgments
 
@@ -56,31 +62,21 @@ vox rests on a few choices that shape everything else.
 
 Readers need context before they need a chart. The Story starts with what happened and then explains disagreement. A distribution without context can make confusion look precise.
 
-Reader-order decision date: 2026-08-28.
-
 ### Use the shape the disagreement actually has
 
 Some disputes have a meaningful spectrum. Some have several independent views. Some are too uncertain to summarize responsibly. vox adapts the presentation to the material instead of forcing a standard debate template.
-
-Perspective-shape decision date: 2026-08-29.
 
 ### Count only what can be named
 
 Any percentage needs a denominator. vox ties quantitative language to a specific retrieved set and discloses the boundary. When the boundary is weak, the product uses qualitative language or says nothing.
 
-Measurement decision date: 2026-08-29.
-
 ### Keep support, momentum, and evidence separate
 
 The view with the most visible reactions is not necessarily the view with the strongest evidence. Recent activity is not the same as broad support. vox keeps those concepts separate so one number cannot blur them together.
 
-Signal-separation decision date: 2026-08-28.
-
 ### Prefer a clean separation over a confident mistake
 
 vox can connect posts that belong to the same continuing situation. When the fit is uncertain, it creates or keeps a separate Story. Incorrectly combining two situations can distort every later conclusion.
-
-Story-matching decision date: 2026-08-28.
 
 ## What success means
 
@@ -91,5 +87,3 @@ The product has failed if it merely produces a smoother summary, hides uncertain
 ## Public scope of this brief
 
 This brief records product purpose and product reasoning. It intentionally omits how the system is implemented, which services it uses, how far development has progressed, and what work remains.
-
-Public product-brief boundary decision date: 2026-09-21.

@@ -2,23 +2,17 @@
 
 vox turns a confusing public post into a structured Story. This document describes the product method. It does not describe the software, providers, data model, or operating environment behind it.
 
-Method boundary decision date: 2026-09-21.
-
 ## 1. Start with the reader's question
 
 A reader encounters a public post and wants context. The request concerns the situation behind the post, not only the sentence visible on screen.
 
 vox begins with a compact Story Seed. The seed identifies the apparent event, the people or groups involved, the rough time and place, the source link, the main uncertainty, and the disagreement that may need explanation.
 
-Story Seed decision date: 2026-08-28.
-
 ## 2. Check whether the situation is already understood
 
 The same situation may appear in many posts. vox first looks for an existing Story that fits the meaning, participants, timeline, and central dispute.
 
 A shared topic or repeated phrase is not enough. If the relationship is unclear, vox keeps the situations separate. A duplicate is less harmful than attaching the wrong explanation to a post.
-
-Story-boundary decision date: 2026-08-28.
 
 ## 3. Gather material by role
 
@@ -33,15 +27,11 @@ vox organizes public material by the job it can perform:
 
 One item may be useful without being authoritative. A participant statement can establish what the participant said. It does not automatically establish that the statement is true. A popular reaction can explain a perspective. It does not become evidence because many people repeated it.
 
-Evidence-role decision date: 2026-08-28.
-
 ## 4. Build the Story around what the material supports
 
 vox produces one coherent explanation rather than a pile of search results. The Story starts with neutral context. It can then add a central question, a perspective spectrum, named perspectives, reasons, a timeline, public reaction, regional differences, and related Stories.
 
 Sections are conditional. vox omits a timeline when sequence adds nothing. It omits a spectrum when the disagreement does not fit one honest axis. It omits a leading position when the retrieved material does not establish one.
-
-Story composition decision date: 2026-08-28. Conditional perspective decision date: 2026-08-29.
 
 ## 5. Keep factual support separate from perspective analysis
 
@@ -52,15 +42,11 @@ The Story distinguishes two questions:
 
 These questions can produce different answers. A view may be common but weakly supported. Strong evidence may exist without producing a clear public consensus. vox does not combine evidence strength and visible support into one score.
 
-Evidence and support separation decision date: 2026-08-28.
-
 ## 6. Describe reaction without pretending to measure everyone
 
 vox may summarize positions and reasons found in a named, bounded set of public material. Any count or percentage belongs only to that set.
 
 The product avoids claims such as "the internet believes" or "most people support" when the available material cannot justify them. When identity cannot be counted reliably, vox describes retrieved reactions rather than unique people.
-
-Bounded measurement decision date: 2026-08-28. Denominator presentation refinement date: 2026-08-29.
 
 ## 7. Present the answer in layers
 
@@ -68,15 +54,11 @@ The first view is compact. It gives the reader enough context to decide whether 
 
 Evidence stays available without turning ordinary reading into an audit exercise. Readers who want to inspect the support can do so. Readers who need the gist can stop earlier.
 
-Layered reader experience decision date: 2026-08-28.
-
 ## 8. Revisit the Story when the situation changes
 
 A Story can receive new material as the public situation develops. vox compares that material with the current Story and publishes a revision only when it changes the explanation in a meaningful, supportable way.
 
 A failed or inconclusive recheck leaves the supported Story in place. Corrections remain distinguishable from ordinary updates, and major corrections preserve the earlier revision for accountability.
-
-Update behavior decision date: 2026-08-28.
 
 ## What this method refuses to do
 
@@ -90,5 +72,3 @@ vox is designed not to:
 - merge separate situations because they share a topic;
 - publish unsupported certainty; or
 - expose a person's broader identity or activity merely because they appeared in one Story.
-
-Method safeguards decision date: 2026-08-28.
