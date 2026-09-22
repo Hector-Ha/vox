@@ -1,6 +1,28 @@
-# Product boundaries
+<div align="center">
+
+<h1>Product boundaries</h1>
+
+<strong>Clear non-goals keep vox focused on reader understanding.</strong>
+
+<br>
+<br>
+
+<sub>CONTEXT, NOT VERDICTS &nbsp;·&nbsp; EVIDENCE, NOT POPULARITY &nbsp;·&nbsp; EXPLANATION, NOT SURVEILLANCE</sub>
+
+</div>
+
+<p align="center"><a href="../README.md">Overview</a> &nbsp;·&nbsp; <a href="product-brief.md">Product brief</a> &nbsp;·&nbsp; <a href="how-vox-works.md">Method</a> &nbsp;·&nbsp; <a href="reader-experience.md">Reader experience</a></p>
+
+---
 
 Clear non-goals make the vox idea easier to judge. They also protect the product from becoming a generic answer machine with a social-media skin.
+
+<table>
+  <tr>
+    <td width="50%" valign="top"><strong>What vox does</strong><br><br>Help a reader understand one public situation through a structured, source-backed Story.</td>
+    <td width="50%" valign="top"><strong>What vox refuses to become</strong><br><br>A verdict label, opinion poll, surveillance dashboard, moderation tool, reply network, or general chatbot.</td>
+  </tr>
+</table>
 
 ## vox is not a verdict label
 

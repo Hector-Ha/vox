@@ -1,8 +1,31 @@
-# Product brief
+<div align="center">
 
-## One sentence
+<h1>Product brief</h1>
+
+<strong>One readable Story for a situation scattered across posts, sources, and public reaction.</strong>
+
+<br>
+<br>
+
+<sub>THE READER PROBLEM &nbsp;·&nbsp; THE STORY &nbsp;·&nbsp; PRODUCT JUDGMENT</sub>
+
+</div>
+
+<p align="center"><a href="../README.md">Overview</a> &nbsp;·&nbsp; <a href="how-vox-works.md">Method</a> &nbsp;·&nbsp; <a href="reader-experience.md">Reader experience</a> &nbsp;·&nbsp; <a href="product-boundaries.md">Boundaries</a></p>
+
+---
+
+## In one sentence
 
 vox helps people understand the situation behind a public post by turning scattered evidence, competing perspectives, and bounded public reaction into one readable Story.
+
+<table>
+  <tr>
+    <td width="33%" valign="top"><strong>The reader gap</strong><br><br>Context is scattered. The post asks for a reaction before the reader has the story.</td>
+    <td width="33%" valign="top"><strong>The product</strong><br><br>vox organizes the situation into a Story with context, evidence, perspectives, and updates.</td>
+    <td width="33%" valign="top"><strong>The restraint</strong><br><br>When the material cannot support a responsible explanation, vox stays quiet.</td>
+  </tr>
+</table>
 
 ## The reader problem
 

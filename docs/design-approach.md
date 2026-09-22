@@ -1,6 +1,30 @@
-# Design approach
+<div align="center">
+
+<h1>Design approach</h1>
+
+<strong>Start with reader uncertainty. Test the cases that make easy answers misleading.</strong>
+
+<br>
+<br>
+
+<sub>READER QUESTIONS &nbsp;·&nbsp; MATERIAL ROLES &nbsp;·&nbsp; HARD CASES &nbsp;·&nbsp; PUBLIC LANGUAGE</sub>
+
+</div>
+
+<p align="center"><a href="../README.md">Overview</a> &nbsp;·&nbsp; <a href="product-brief.md">Product brief</a> &nbsp;·&nbsp; <a href="how-vox-works.md">Method</a> &nbsp;·&nbsp; <a href="product-boundaries.md">Boundaries</a></p>
+
+---
 
 vox began with a product question, not a feature list: what would a reader need to understand a confusing online situation without leaving the conversation and reconstructing it alone?
+
+<table>
+  <tr>
+    <td width="25%" valign="top"><strong>Start with uncertainty</strong><br><br>Name what the reader does not know before proposing a feature.</td>
+    <td width="25%" valign="top"><strong>Separate the roles</strong><br><br>Facts, reactions, and background must not blur into one claim.</td>
+    <td width="25%" valign="top"><strong>Test the awkward cases</strong><br><br>Edge cases show where a tidy presentation would mislead.</td>
+    <td width="25%" valign="top"><strong>Keep claims bounded</strong><br><br>Public language should say only what the material can support.</td>
+  </tr>
+</table>
 
 This document explains how the product direction was developed. It omits implementation details, internal artifacts, vendors, architecture, delivery records, and development status.
 

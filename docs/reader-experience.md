@@ -1,6 +1,29 @@
-# Reader experience
+<div align="center">
+
+<h1>Reader experience</h1>
+
+<strong>Context should appear where the question starts.</strong>
+
+<br>
+<br>
+
+<sub>ENCOUNTER &nbsp;·&nbsp; READ &nbsp;·&nbsp; REVISIT &nbsp;·&nbsp; REPORT</sub>
+
+</div>
+
+<p align="center"><a href="../README.md">Overview</a> &nbsp;·&nbsp; <a href="product-brief.md">Product brief</a> &nbsp;·&nbsp; <a href="how-vox-works.md">Method</a> &nbsp;·&nbsp; <a href="privacy-and-safety.md">Privacy and safety</a></p>
+
+---
 
 vox is designed to meet a reader inside an existing public conversation. The reader should not need to open a research dashboard or translate a heated thread into search terms before getting useful context.
+
+<table>
+  <tr>
+    <td width="33%" valign="top"><strong>Open</strong><br><br>Begin with the post and the question it created.</td>
+    <td width="33%" valign="top"><strong>Understand</strong><br><br>Read the compact Story first, then inspect the complete Story when needed.</td>
+    <td width="33%" valign="top"><strong>Return</strong><br><br>Follow meaningful changes, contribute context privately, or report a problem.</td>
+  </tr>
+</table>
 
 ## Encounter
 

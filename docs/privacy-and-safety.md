@@ -1,6 +1,30 @@
-# Privacy and safety
+<div align="center">
+
+<h1>Privacy and safety</h1>
+
+<strong>Explain public situations without turning readers or ordinary participants into a surveillance product.</strong>
+
+<br>
+<br>
+
+<sub>REQUEST-DRIVEN &nbsp;·&nbsp; STORY-SCOPED &nbsp;·&nbsp; BOUNDED &nbsp;·&nbsp; RESPECTFUL</sub>
+
+</div>
+
+<p align="center"><a href="../README.md">Overview</a> &nbsp;·&nbsp; <a href="reader-experience.md">Reader experience</a> &nbsp;·&nbsp; <a href="governance.md">Trust model</a> &nbsp;·&nbsp; <a href="product-boundaries.md">Boundaries</a></p>
+
+---
 
 vox is designed to explain public situations without turning readers or ordinary participants into a separate surveillance product.
+
+<table>
+  <tr>
+    <td width="25%" valign="top"><strong>Request-driven</strong><br><br>Begin with a reader question about a public post.</td>
+    <td width="25%" valign="top"><strong>Story-scoped</strong><br><br>Distinguish repeated authors inside one Story without building cross-Story profiles.</td>
+    <td width="25%" valign="top"><strong>Bounded</strong><br><br>Describe only the public material that was actually available for assessment.</td>
+    <td width="25%" valign="top"><strong>Respectful</strong><br><br>Keep factual support, ordinary reaction, attribution, and reports in their proper place.</td>
+  </tr>
+</table>
 
 This document records public product boundaries. It does not disclose security controls, retention schedules, incident procedures, infrastructure, or legal terms.
 

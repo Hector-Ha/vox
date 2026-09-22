@@ -1,6 +1,30 @@
-# Trust model
+<div align="center">
+
+<h1>Trust model</h1>
+
+<strong>Trust comes from visible boundaries, not a polished answer or a large reaction count.</strong>
+
+<br>
+<br>
+
+<sub>EVIDENCE &nbsp;·&nbsp; BOUNDARIES &nbsp;·&nbsp; CORRECTIONS &nbsp;·&nbsp; ACCOUNTABILITY</sub>
+
+</div>
+
+<p align="center"><a href="../README.md">Overview</a> &nbsp;·&nbsp; <a href="product-brief.md">Product brief</a> &nbsp;·&nbsp; <a href="how-vox-works.md">Method</a> &nbsp;·&nbsp; <a href="privacy-and-safety.md">Privacy and safety</a></p>
+
+---
 
 vox deals with contested public material. Trust cannot come from polished language, a model label, or a large reaction count. It has to come from visible boundaries.
+
+<table>
+  <tr>
+    <td width="25%" valign="top"><strong>Evidence</strong><br><br>Each source has a stated role and a limit on what it can establish.</td>
+    <td width="25%" valign="top"><strong>Measurement</strong><br><br>Every count belongs to a bounded set of retrieved material.</td>
+    <td width="25%" valign="top"><strong>Correction</strong><br><br>New events and mistakes are different changes and should stay distinct.</td>
+    <td width="25%" valign="top"><strong>Challenge</strong><br><br>Readers can report a problem without silently rewriting a Story.</td>
+  </tr>
+</table>
 
 This document states product principles. It is not a disclosure of internal review systems, security controls, moderation tooling, or operating procedures.
 

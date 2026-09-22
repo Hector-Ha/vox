@@ -1,6 +1,30 @@
-# How vox works
+<div align="center">
+
+<h1>How vox works</h1>
+
+<strong>A product method for turning a confusing public post into a structured Story.</strong>
+
+<br>
+<br>
+
+<sub>START &nbsp;·&nbsp; GATHER &nbsp;·&nbsp; SEPARATE &nbsp;·&nbsp; EXPLAIN</sub>
+
+</div>
+
+<p align="center"><a href="../README.md">Overview</a> &nbsp;·&nbsp; <a href="product-brief.md">Product brief</a> &nbsp;·&nbsp; <a href="reader-experience.md">Reader experience</a> &nbsp;·&nbsp; <a href="governance.md">Trust model</a></p>
+
+---
 
 vox turns a confusing public post into a structured Story. This document describes the product method. It does not describe the software, providers, data model, or operating environment behind it.
+
+<table>
+  <tr>
+    <td width="25%" valign="top"><strong>01 &nbsp; Start</strong><br><br>Find the situation behind the visible post.</td>
+    <td width="25%" valign="top"><strong>02 &nbsp; Gather</strong><br><br>Collect public material that can explain the situation.</td>
+    <td width="25%" valign="top"><strong>03 &nbsp; Separate</strong><br><br>Give evidence, reaction, and background their own jobs.</td>
+    <td width="25%" valign="top"><strong>04 &nbsp; Explain</strong><br><br>Publish only the sections that the material supports.</td>
+  </tr>
+</table>
 
 ## 1. Start with the reader's question
 
