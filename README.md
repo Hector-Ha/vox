@@ -1,83 +1,168 @@
+<div align="center">
+
 # vox
 
-**The story behind the post.**
+### The story behind the post.
 
-vox is an independent context layer for public online conversations. It is designed for the moment when a post is easy to react to but hard to understand. vox gathers the relevant public record, separates evidence from reaction, and turns the result into a concise Story that can be read where the conversation is happening.
+<sub>CONTEXT &nbsp;·&nbsp; EVIDENCE &nbsp;·&nbsp; PERSPECTIVES &nbsp;·&nbsp; UPDATES</sub>
 
-The goal is not to declare a winner. The goal is to help a reader answer better questions:
+<br>
+<br>
 
-- What happened?
-- What is known, and what remains uncertain?
-- Why do reasonable people read the situation differently?
-- Which claims have support?
-- What can the available public reaction tell us, and what can it not tell us?
+<a href="docs/product-brief.md">Product brief</a> &nbsp;·&nbsp; <a href="docs/how-vox-works.md">How vox works</a> &nbsp;·&nbsp; <a href="docs/reader-experience.md">Reader experience</a> &nbsp;·&nbsp; <a href="docs/product-boundaries.md">Product boundaries</a>
 
-## What this repository contains
+</div>
 
-This repository is a public product brief. It explains the problem, the product model, the reader experience, and the principles behind vox.
+---
 
-It does not disclose source code, technology choices, system architecture, vendors, security controls, private research, internal links, delivery status, or the roadmap. Nothing here should be read as a launch announcement or a claim about current availability.
+> [!NOTE]
+> **This is a public product brief.** It explains the problem, product model, reader experience, and trust principles behind vox. It contains no source code, technology choices, system architecture, vendors, security controls, private research, internal links, delivery status, or roadmap. Nothing here announces availability.
 
-- [Product brief](docs/product-brief.md)
-- [How vox works](docs/how-vox-works.md)
-- [Reader experience](docs/reader-experience.md)
-- [Design approach](docs/design-approach.md)
-- [Trust model](docs/governance.md)
-- [Privacy and safety](docs/privacy-and-safety.md)
-- [Product boundaries](docs/product-boundaries.md)
-
-## The problem
+## Understand the situation, not just the post
 
 Online situations rarely stay in one place. A claim begins in a video, gets reframed in a post, draws reactions across several communities, and picks up details that may be true, disputed, outdated, or impossible to verify.
 
-Readers are left to reconstruct the situation themselves. Search can find pages. Social feeds can show momentum. A fact check may settle one narrow claim. None of those tools reliably explains the whole situation, the evidence behind it, and the reasons people disagree.
+Readers are left to reconstruct the situation themselves. Search can find pages. Social feeds can show momentum. A fact check may settle one narrow claim. None of them reliably explains the whole situation, the evidence behind it, and the reasons people disagree.
 
-vox is designed to fill that gap.
+vox is designed to fill that gap. It gathers the relevant public record, separates evidence from reaction, and turns the result into one readable **Story**.
 
-## The product idea
+<br>
 
-A reader can ask vox for context on a public post. vox builds or finds a Story about the underlying situation. A Story may include:
+<table>
+  <tr>
+    <td width="25%" valign="top">
+      <strong>01 &nbsp; Encounter</strong><br><br>
+      A reader finds a public post that assumes history they do not have.
+    </td>
+    <td width="25%" valign="top">
+      <strong>02 &nbsp; Gather</strong><br><br>
+      vox finds the public material needed to explain the underlying situation.
+    </td>
+    <td width="25%" valign="top">
+      <strong>03 &nbsp; Separate</strong><br><br>
+      Direct material, independent context, public reaction, and background keep distinct roles.
+    </td>
+    <td width="25%" valign="top">
+      <strong>04 &nbsp; Explain</strong><br><br>
+      The reader gets context, perspectives, evidence, uncertainty, and meaningful changes.
+    </td>
+  </tr>
+</table>
 
-- a neutral account of what happened;
-- the central question or disagreement;
-- the strongest supported perspectives and their reasons;
-- a timeline when sequence matters;
-- direct material, independent context, public reaction, and background references;
-- a careful account of what appeared in the public material vox examined; and
-- a record of meaningful corrections or updates.
+<br>
 
-Each part appears only when the available material supports it. vox can explain a situation without forcing every Story into a true-or-false verdict, a two-sided debate, or a popularity contest.
+## What a Story can hold
 
-The model fits breaking news, politics, creator disputes, product controversies, fandom, local discussion, and smaller online conflicts. The situation does not need to be famous. It needs enough public material to explain responsibly.
+Every Story follows the material. Sections appear only when the public record supports them.
 
-## What makes vox different
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>Context</strong><br><br>
+      A neutral account of what happened, who is involved, and why the situation matters.
+    </td>
+    <td width="33%" valign="top">
+      <strong>Perspectives</strong><br><br>
+      The strongest supported interpretations and the reasons behind them.
+    </td>
+    <td width="33%" valign="top">
+      <strong>Evidence</strong><br><br>
+      Inspectable support for factual statements, kept separate from popularity.
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>Timeline</strong><br><br>
+      The sequence of events when order changes the meaning.
+    </td>
+    <td width="33%" valign="top">
+      <strong>Public reaction</strong><br><br>
+      A bounded account of the positions found in retrieved public material.
+    </td>
+    <td width="33%" valign="top">
+      <strong>Updates</strong><br><br>
+      Meaningful developments and corrections without erasing earlier context.
+    </td>
+  </tr>
+</table>
 
-### Context follows the conversation
+<br>
 
-A useful explanation should meet the reader near the post that created the question. vox is designed to connect related public posts to the same Story when they concern the same continuing situation. It keeps merely similar or adjacent situations separate.
+## Built around restraint
 
-### Evidence and opinion keep different jobs
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Context follows the conversation</strong><br><br>
+      Related posts can point to the same continuing Story. Similar topics stay separate when their meaning, participants, or timeline do not fit.
+    </td>
+    <td width="50%" valign="top">
+      <strong>Evidence and opinion keep different jobs</strong><br><br>
+      A participant statement, independent report, public reaction, and background source can all matter. They do not prove the same things.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Public reaction stays bounded</strong><br><br>
+      The internet is not a representative poll. vox describes only the public material it could retrieve and assess.
+    </td>
+    <td width="50%" valign="top">
+      <strong>Complexity is allowed</strong><br><br>
+      Some disagreements fit a spectrum. Others need several views or an honest statement of uncertainty.
+    </td>
+  </tr>
+</table>
 
-Participant statements, independent reporting, public reaction, and historical background can all matter. They do not prove the same things. vox labels their roles and does not treat popularity as evidence.
-
-### Public reaction stays bounded
-
-The internet is not a representative poll. vox describes only the material it could retrieve and assess. It does not turn a partial sample into a claim about an entire platform, region, or public.
-
-### Complexity is allowed
-
-Some disagreements fit on a clear spectrum. Others do not. vox can present several named perspectives, conditional views, or unresolved questions without inventing a false middle or forcing binary sides.
-
-### Updates do not erase history
-
-Online situations change. vox is designed to revise a Story when the public record changes while preserving the distinction between an update and a correction. Failed or incomplete rechecks do not replace a supported Story.
+> [!IMPORTANT]
+> A request does not create evidence. When the public material cannot support a useful Story, the responsible outcome is no Story.
 
 ## The product principle
 
 > AI can help gather, compare, and explain public material. It cannot make missing evidence appear, convert a convenience sample into public opinion, or erase uncertainty.
 
-## A deliberate public boundary
+## Explore the public docs
 
-This repository publishes the product reasoning that can be understood and challenged without exposing confidential machinery or records.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="docs/product-brief.md"><strong>Product brief</strong></a><br><br>
+      The reader problem, intended audience, Story model, and product judgments.
+    </td>
+    <td width="50%" valign="top">
+      <a href="docs/reader-experience.md"><strong>Reader experience</strong></a><br><br>
+      The journey from a confusing post to context, updates, Contributions, and reports.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="docs/how-vox-works.md"><strong>How vox works</strong></a><br><br>
+      The product method for gathering material, building a Story, and handling change.
+    </td>
+    <td width="50%" valign="top">
+      <a href="docs/design-approach.md"><strong>Design approach</strong></a><br><br>
+      How reader uncertainty, edge cases, and focused prototypes shaped the product direction.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="docs/governance.md"><strong>Trust model</strong></a><br><br>
+      The boundaries between evidence, popularity, uncertainty, reporting, and correction.
+    </td>
+    <td width="50%" valign="top">
+      <a href="docs/privacy-and-safety.md"><strong>Privacy and safety</strong></a><br><br>
+      Request-driven context, bounded identity, attribution, and reporting principles.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <a href="docs/product-boundaries.md"><strong>Product boundaries</strong></a><br><br>
+      What vox is not, including a poll, moderation system, social-listening dashboard, comment network, or general chatbot.
+    </td>
+  </tr>
+</table>
 
-That boundary is intentional. A serious product should be able to explain what it is for before it explains how it is built.
+---
+
+<p align="center">
+  <strong>A serious product should be able to explain what it is for before it explains how it is built.</strong>
+</p>
